@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+:root {
+	--main-accent-color: #10de89;
+	--section-title-color-dark: #37474f;
+	--body-color: #495057;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+ body {
+	font-family: 'Poppins', sans-serif;
+}
+.main-man-content h4 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 30px;
+
+/* identical to box height, or 417% */
+	letter-spacing: 5px;
+	color: #169916;
+}
+
+.main-man-content h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+	line-height: 4rem;
+	font-weight: bold;
+	color: #18214D;
+	letter-spacing: -3px;
+}
+
+.main-man-content p {
+	color: #000000;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	line-height: 1.7rem;
+}
+
+
+.btn-white {
+	border: 2px solid #ffffff;
+	border-radius: 2rem;
+	color: #10de89;
+	font-weight: 600;
+	font-size: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.btn-white:hover {
+	background-color: #ffffff;
+	color: var(--main-accent-color);
+	border: 2px solid #ffffff;
+}
+
+/* section title */
+
+/* Navigation */
+.navbar {
+	padding-top: 1.2rem;
+	
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #10de89;
+	
+	font-weight: 600;
+	font-size: .85rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #10de89;
+}
+
+/* ==== man ==== */
+
+#man {
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 8rem;
+	padding-bottom: 6rem;
+	position: relative;
+} 
+
+.partner h1 {
+	color: #1f0171;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.partner span {
+	color: #10de89;
+	font-weight: bold;
+}
+
+.partner button {
+	position: relative;
+	position: absolute; top:650px; right: 170px;
+}
+/* On Demand Courses */
+
+
+/* technology */
+.tech h1 {
+font-weight: 700;
+font-size: 50px;
+color: #18214D;
+}
+
+.tech h1 span {
+color: #39B54A;
+}
+
+.tech p {
+color: #2B2B2B;
+}
+
+.online {
+	height: 1100px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+
+.online h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.online p{
+	color: #7E96B3;
+}
+
+.card{
+	margin-top: 40px;
+}
+
+/* Quiz Section */
+.quiz h1 {
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: bold;
+	letter-spacing: -3px;
+}
+
+.quiz span {
+	color: #169916;
+}
+
+.quiz p {
+	color: #ffffff;
+}
+
+.quiz a {
+	height: 50px;
+	width: 300px;
+}
+
+#ball {
+	background-color: #000033;
+	background-size: cover;
+	height: 450px;
+	background-repeat: no-repeat;
+	padding-top: 8rem;
+	padding-bottom: 6rem;
+	position: relative;
+}
+
+.something h1 {
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.something span {
+	color: #10de89;
+}
+
+.something p {
+	color: #ffffff;
+}
+
+.something a {
+	height: 50px;
+	width: 300px;
+}
+
+
+#battery {
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 8rem;
+	padding-bottom: 6rem;
+	position: relative;
+}
+
+.jumbotron {
+  background-image:url('Rectangle6.png');
+  height:400px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.jumbotron h1 {
+	color: #ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 55px;
+	line-height: 4rem;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+
+
+
+
